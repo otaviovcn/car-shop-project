@@ -1,22 +1,5 @@
 # Boas-vindas ao repositório do projeto Car Shop!
 
-Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
-## Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta e do Manual da Pessoa Estudante da Trybe.
-
-# Entregáveis
-
-<details>
-  <summary><strong>🤷🏽‍♀️ Como entregar</strong></summary>
-
-  Para entregar o seu projeto você deverá criar um *Pull Request* neste repositório.
-
-  > Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/fc998c60-386e-46bc-83ca-4269beb17e17/section/fe827a71-3222-4b4d-a66f-ed98e09961af/day/35e03d5e-6341-4a8c-84d1-b4308b2887ef/lesson/573db55d-f451-455d-bdb5-66545668f436) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
-
   <br>
 </details>
 
@@ -27,16 +10,7 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 
   <br>
 </details>
-
-<details>
-  <summary><strong>🗓 Data de Entrega</strong></summary>
-  
-  - Este projeto é individual;
-  - Serão `3` dias de projeto;
-  - Data de entrega para avaliação final do projeto: `01/03/2023 14:00`.
-
-  <br>
-</details>
+    <br>
 
 # Orientações
 
@@ -72,11 +46,9 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
   ## 👉 Sem Docker
 
   > :information_source: Instale as dependências [**Caso existam**] com `npm install`
-  
-  **⚠ Atenção:** Não rode o comando npm audit fix! Ele atualiza várias dependências do projeto, e essa atualização gera conflitos com o avaliador.
+
 
   - ✨ **Dica:** Para rodar o projeto desta forma, obrigatoriamente você deve ter o `node` instalado em seu computador.
-  - ✨ **Dica:** O avaliador espera que a versão do `node` utilizada seja a 16.
 
   <br>
 </details>
@@ -86,101 +58,21 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 
   1. Clone o repositório
 
-  - Use o comando: `git clone https://github.com/tryber/sd-023-b-project-car-shop.git`.
+  - Use o comando: `git clone git@github.com:otaviovcn/car-shop-project.git`.
   - Entre na pasta do repositório que você acabou de clonar:
-    - `cd sd-023-b-project-car-shop`
+    - `cd car-shop-project`
 
   2. Instale as dependências
 
   - `npm install`
 
-  3. Crie uma branch a partir da branch `main`
-
-  - Verifique se você está na branch `main`
-    - Exemplo: `git branch`
-  - Se não estiver, mude para a branch `main`
-    - Exemplo: `git checkout main`
-    
-  - Agora crie uma branch onde você vai submeter os `commits` do seu projeto
-    - Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    - Exemplo: `git checkout -b joaozinho-sd-0X-project-car-shop`
-
-  4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-  - Verifique que as mudanças ainda não estão no _stage_
-    - Exemplo: `git status` (deve aparecer listada a pasta _joaozinho_ em vermelho)
-
-  - Adicione o novo arquivo ao _stage_ do Git
-      - Exemplo:
-        - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        - `git status` (deve aparecer listado o arquivo _joaozinho/README.md_ em verde)
-
-  - Faça o `commit` inicial
-      - Exemplo:
-        - `git commit -m 'iniciando o projeto x'` (fazendo o primeiro commit)
-        - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-  5. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-  - Usando o exemplo anterior: `git push -u origin joaozinho-sd-0X-project-car-shop`
-
-  6. Crie um novo `Pull Request` _(PR)_
-
-  - Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-023-b-project-car-shop/pulls)
-  - Clique no botão verde _"New pull request"_
-  - Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  - Coloque um título para a sua _Pull Request_
-    - Exemplo: _"Cria tela de busca"_
-  - Clique no botão verde _"Create pull request"_
-  - Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-  - **Não se preocupe em preencher mais nada por enquanto!**
-  - Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-023-b-project-car-shop/pulls) e confira que o seu _Pull Request_ está criado
-
-  <br>
 </details>
 
-<details>
-  <summary><strong>⌨️ Durante o desenvolvimento</strong></summary>
 
-  - Faça `commits` das alterações que você fizer no código regularmente.
-
-  - Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto.
-
-  - Os comandos que você utilizará com mais frequência são:
-    1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-    2. `git add` _(para adicionar arquivos ao stage do Git)_
-    3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-    4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-    5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
-  <br>
-</details>
-
-<details>
   <summary><strong>🤝 Depois de terminar o desenvolvimento (opcional)</strong></summary>
 
-  Para sinalizar que o seu projeto está pronto para o _"Code Review"_, faça o seguinte:
-
-  * Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-    * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-    * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-    * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-00`.
-
-  Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-  <br>
 </details>
 
-<details>
-  <summary><strong>🕵🏿 Revisando um pull request</strong></summary>
-
-  Use o conteúdo sobre [Code Review](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/f04cdb21-382e-4588-8950-3b1a29afd2dd/section/b3af2f05-08e5-4b4a-9667-6f5f729c351d/lesson/36268865-fc46-40c7-92bf-cbded9af9006) para te ajudar a revisar os _Pull Requests_.
-
-  <br>
-</details>
 
 <details>
   <summary><strong>🛠 Execução de testes localmente</strong></summary>
@@ -200,20 +92,6 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
   <br>
 </details>
 
-<details>
-  <summary><strong>🎛 Linter</strong></summary>
-
-  Para fazer a análise estática do seu código neste projeto, vamos utilizar o linter [ESLint](https://eslint.org/). Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível e de fácil manutenção!
-
-  - Este projeto já vem com as dependências relacionadas ao _linter_ configuradas no arquivo `package.json`
-  - Para poder rodar o `ESLint` basta executar o comando `npm install` dentro do projeto e depois `npm run lint`. 
-  - Se a análise do `ESLint` encontrar problemas no seu código, eles serão mostrados no seu terminal. 
-  - Se não houver problema no seu código, nada será impresso no seu terminal.
-  - Você pode também instalar o plugin do `ESLint` no `VSCode`. Para isso, bastar ir em extensions e baixar o [plugin `ESLint`](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
-
-  ⚠️ **Importante**: Pull Requests com issues de erro de Linter não serão avaliadas. Atente-se para resolvê-las antes de finalizar o desenvolvimento.
-
-  <br>
 </details>
 
 <details>
@@ -275,17 +153,7 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
   ) => mongoose.connect(mongoDatabaseURI);
   ```
 
-  ##### Lembretes
 
-  - Lembre-se de não entregar o projeto com nenhum teste ignorado. Testes ignorados serão tratados como testes falhando!
-  - Não apague, em hipótese alguma, qualquer teste ou arquivo deste repositório.
-  - `src/Models`, `src/Services`, `src/Controllers`, `src/Interfaces`, `src/Domains` e seus respectivos arquivos criados durante a execução do projeto, devem seguir à risca os nomes informados no README e conforme foi ensinado na seção.
-  - Os testes do projeto DEVEM ser de unidade, testando camadas.
-  - Quando não especificado o retorno de um código de `status`, utilize os aprendidos até o momento de forma correta.
-
-  **⚠️ Atenção:** é normal o linter acusar `warnings`, deixamos a conexão com o banco de dados com alguns `console.log()` e isso é para auxiliar no desenvolvimento. Se o `Mongoose` não subir uma instância do banco de dados com o servidor, o banco de dados não funciona! E por isso deixamos os _consoles_... Se quiser remover, fique a vontade 😉
-
-  <br>
 </details>
 
 <details>
